@@ -16,4 +16,6 @@ for item in json_data["annotations"]:
 # Сохраняем результат в training_data.txt
 with open("training_data.txt", "w", encoding="utf-8") as f:
     for entry in converted_data:
-        f.write(f"{entry}\n")
+        f.write(f"{entry}\n")     
+
+        
